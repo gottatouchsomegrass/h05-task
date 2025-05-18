@@ -4,7 +4,7 @@ export default function Footer(){
     <footer className="bg-[#F0F0F0] text-gray-700">
       {/* Newsletter Section */}
       <div className='mb-[50px] sm:mb-20'>
-        <div className='px-4 xl:px-0'>
+        <div className='px-4 bg-[linear-gradient(to_bottom,white_0%,white_50%,#F0F0F0_50%,#F0F0F0_100%)]'>
           <div className='bg-[linear-gradient(to_bottom,white_0%,white_50%,#F0F0F0_50%,#F0F0F0_100%)]'>
             <div className="bg-black text-white rounded-3xl px-6 py-8 md:flex md:items-center md:justify-between m-auto max-w-7xl z-10">
               <h2 className="text-3xl font-extrabold uppercase leading-tight md:w-1/2 md:text-left text-center">
@@ -86,6 +86,7 @@ export default function Footer(){
       <div className="border-t border-gray-300 py-4">
         <div className="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row justify-between items-center text-sm">
           <p>Shop.co © 2000-2023, All Rights Reserved</p>
+          <p>Made by <strong className="font-mono">gottatouchsomegrass</strong></p>
           <div className="mt-4 sm:mt-0 flex items-center space-x-4">
             <img src="/visa.svg" alt="Visa" className="h-8 cursor-pointer" />
             <img src="/mastercard.svg" alt="Mastercard" className="h-8 cursor-pointer" />

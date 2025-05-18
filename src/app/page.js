@@ -37,7 +37,7 @@ export default function HomePage() {
       <header className="bg-[#F2F0F1] pt-10 md:pt-24 overflow-hidden">
   <div className="md:max-w-frame mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
     <section className="max-w-frame px-4 md:mt-12 md:ml-8 md:text-left text-center">
-      <h2 className="__className_931021 text-4xl lg:text-[64px] lg:leading-[64px] mb-5 font-extrabold lg:mb-8">
+      <h2 className="text-4xl lg:text-[64px] lg:leading-[64px] mb-5 font-extrabold lg:mb-8">
         FIND CLOTHES THAT MATCHES YOUR STYLE
       </h2>
       <p className="text-black/60 text-sm lg:text-base mb-6 lg:mb-8 max-w-[545px]">
@@ -117,11 +117,11 @@ export default function HomePage() {
 
       {/* Brands */}
       <div className="max-w-frame mx-auto flex flex-wrap items-center justify-center md:justify-between px-6 md:px-16 py-6 bg-black top-[750px] xl:px-0 space-x-7">
-        <Image key="versace" src={`/versace.png`} alt="versace" width={166.48} height={33.16} className='mx-4 my-4'/>
-        <Image key="zara" src={`/zara.png`} alt="zara" width={91} height={38} className='mr-4 my-4'/>
-        <Image key="gucci" src={`/gucci.png`} alt="gucci" width={156} height={36} className='mr-4 my-4'/>
-        <Image key="prada" src={`/prada.png`} alt="prada" width={194} height={32} className='mr-4 my-4'/>
-        <Image key="calvinklein" src={`/calvin.svg`} alt="calvinklein" width={206.79} height={33.35} className='mr-4 my-4'/>
+        <Image key="versace" src={`/versace.png`} alt="versace" width={166.48} height={33.16} className='mx-6 my-4 md:w-[166.48] md:h-[33.16]} w-[116.74] h-[23.25]'/>
+        <Image key="zara" src={`/zara.png`} alt="zara" width={91} height={38} className='mr-4 my-4 md:w-[91] md:h-[38] w-[63.8088264465332] h-[26.645444869995117]'/>
+        <Image key="gucci" src={`/gucci.png`} alt="gucci" width={156} height={36} className='mr-4 my-4 md:w-[156] md:h-[36] w-[109.38655853271484] h-[25.243053436279297]'/>
+        <Image key="prada" src={`/prada.png`} alt="prada" width={194} height={32} className='mr-4 my-4 md:w-[194] md:h-[32] w-[127] h-[21]'/>
+        <Image key="calvinklein" src={`/calvin.svg`} alt="calvinklein" width={206.79} height={33.35} className='mx-6 my-4 md:w-[206.79] md:h-[33.35] w-[134.84451293945312] h-[21.745996475219727]'/>
       </div>
 
       {/* New Arrivals */}
