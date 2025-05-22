@@ -18,11 +18,13 @@ export default function Navbar() {
         strategy="beforeInteractive"
       />
       {/* Top promo bar */}
-      <div className="bg-black text-white text-center text-xs p-2">
-        Sign up and get 20% off on your first order.{' '}
-        <a href="#" className="underline">Sign Up Now</a>
-        <ion-icon name="close-outline" className="absolute top-[8] right-8 text-white cursor-pointer text-2xl"></ion-icon>
+      <div className="bg-black text-white text-center text-xs p-3">
+        Sign up and get 20% off on your first order.
+        <a href="#" className="underline ml-2">Sign Up Now</a>
+      <ion-icon name="close-outline" className="absolute top-[8] right-8 text-white cursor-pointer text-2xl hidden md:flex"></ion-icon>
+
       </div>
+
       
 
       {/* Ionicons scripts */}

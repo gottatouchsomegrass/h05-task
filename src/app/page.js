@@ -91,7 +91,7 @@ export default function HomePage() {
     <section className="relative md:px-4 min-h-[448px] md:min-h-[570px] bg-cover bg-top xl:bg-[center_top_-1.6rem] bg-no-repeat bg-[url('/hero-image-new.png')] md:bg-[url('/hero-image-new.png')]">
       <img
         alt="big star"
-        fetchpriority="high"
+        fetchPriority="high"
         width={104}
         height={104}
         decoding="async"
@@ -102,7 +102,7 @@ export default function HomePage() {
       />
       <img
         alt="small star"
-        fetchpriority="high"
+        fetchPriority="high"
         width={56}
         height={56}
         decoding="async"
@@ -187,8 +187,8 @@ export default function HomePage() {
             <p className="font-bold text-2xl">$120</p>
           </div>
         </div>
-        <div class="w-full px-4 sm:px-0 text-center mt-6">
-          <a class="w-full inline-block sm:w-[218px] px-[54px] py-4 border rounded-full hover:bg-black hover:text-white text-black transition-all font-medium text-sm sm:text-base border-black/10" href="/shop#new-arrivals">View All</a>
+        <div className="w-full px-4 sm:px-0 text-center mt-6">
+          <a className="w-full inline-block sm:w-[218px] px-[54px] py-4 border rounded-full hover:bg-black hover:text-white text-black transition-all font-medium text-sm sm:text-base border-black/10" href="/shop#new-arrivals">View All</a>
         </div>
       </section>
 
