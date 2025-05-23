@@ -1,3 +1,5 @@
+"use client"
+
 export default function Footer(){
     return(
         <>
@@ -87,7 +89,7 @@ export default function Footer(){
         <div className="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row justify-between items-center text-sm">
           <p>Shop.co © 2000-2023, All Rights Reserved</p>
           <p>Made by <strong className="font-mono">gottatouchsomegrass</strong></p>
-          <div className="mt-4 sm:mt-0 flex items-center space-x-4">
+          <div className="mt-4 sm:mt-0 flex items-center max-w-[282px]">
             <img src="/visa.svg" alt="Visa" className="h-8 cursor-pointer" />
             <img src="/mastercard.svg" alt="Mastercard" className="h-8 cursor-pointer" />
             <img src="/paypal.png" alt="PayPal" className="h-8 cursor-pointer" />

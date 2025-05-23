@@ -1,3 +1,5 @@
+"use client"
+
 import { useState } from 'react'
 import Script from 'next/script'
 
@@ -17,6 +19,8 @@ export default function Navbar() {
         src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
         strategy="beforeInteractive"
       />
+
+
       {/* Top promo bar */}
       <div className="bg-black text-white text-center text-xs p-3">
         Sign up and get 20% off on your first order.
@@ -25,12 +29,8 @@ export default function Navbar() {
 
       </div>
 
-      
 
-      {/* Ionicons scripts */}
-
-
-      <header className="relative top-0 bg-white shadow-sm">
+      <header className="relative top-0 bg-white md:mx-14 md:mr-22">
         <div className="flex items-center justify-between px-4 py-2 h-[86px]">
 
           {/* Mobile menu button */}
@@ -42,7 +42,7 @@ export default function Navbar() {
           </span>
 
           {/* Logo */}
-          <div className="text-3xl font-extrabold tracking-tight md:ml-8">
+          <div className="text-3xl font-extrabold tracking-tight md:ml-8 mr-3">
             <a href='#'>SHOP.CO</a>
           </div>
 
